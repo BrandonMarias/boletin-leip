@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "sass ./sass/custom.scss ./public/css/custom.css",
-    "build:css-w": "sass ./sass/custom.scss ./public/css/custom.css --watch"
+    "build:css-w": "sass ./sass/custom.scss ./public/css/custom.css --watch",
+    "purge:css": "purgecss --css ./public/css/custom.css --content ./public/*.html ./public/js/*.js -o ./public/css/reducido.css -v"
   },
   "keywords": [],
   "author": "",
