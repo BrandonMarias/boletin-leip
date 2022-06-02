@@ -1,0 +1,30 @@
+// Variable overrides first
+$primary: #8fd4f8;
+$success: #6afaa8;
+$warning: #ffe883;
+$danger: #FF584C;
+$info: #ff8ece;
+
+$enable-shadows: true;
+$prefix: "mo-";
+
+// $nav-link-color: #fff;
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.slider{
+    background: url(../img/bg-3.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.love-buttom{
+    cursor: pointer;
+}
+
+.text-justify{
+    text-align: justify;
+}
