@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boletin LEIP</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/custom.css"> -->
     <link rel="stylesheet" href="css/reducido.css">
 </head>
@@ -356,7 +357,7 @@
                     <br>
                     <br>
                     <article class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4" data-aos="fade-right">
                             <figure class="figure">
                                 <img src="img/padres.svg" class="figure-img img-fluid rounded" alt="...">
                             </figure>
@@ -376,7 +377,7 @@
                     </article>
                     <br>
                     <article class="row  align-items-center">
-                        <div class="col-md-4 order-0 order-md-1 ">
+                        <div class="col-md-4 order-0 order-md-1" data-aos="fade-left">
                             <figure class="figure">
                                 <img src="img/amigos.svg" class="figure-img img-fluid rounded" alt="...">
                             </figure>
@@ -486,7 +487,7 @@
                     <br>
                     <article class="container">
                         <div class="row align-items-center">
-                            <div class="col-md-5">
+                            <div class="col-md-5" data-aos="fade-right">
                                 <figure class="figure">
                                     <img src="img/profesor.svg" class="figure-img img-fluid rounded" alt="...">
                                 </figure>
@@ -735,6 +736,13 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <script src="js/love-buttom.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+      </script>
 </body>
 
 </html>
