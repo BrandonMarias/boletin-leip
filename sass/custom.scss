@@ -7,8 +7,15 @@ $info: #ff8ece;
 
 $enable-shadows: true;
 $prefix: "mo-";
+$enable-gradients: true;
 
 // $nav-link-color: #fff;
+
+// font-family: 'Barlow Semi Condensed', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+
+$body-font-family: 'Montserrat', sans-serif;
+$font-sans-serif: 'Barlow Semi Condensed', sans-serif;
 
 // Then import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
