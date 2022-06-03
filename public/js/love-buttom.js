@@ -1,5 +1,5 @@
 const d = document;
-const path = "http://localhost:8087/api/love/";
+const path = "https://boletin-leip.herokuapp.com/";
 
 const incrementarContador = (tarea = "") => {
   const url = path + tarea;
