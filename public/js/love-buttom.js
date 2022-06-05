@@ -1,5 +1,6 @@
 const d = document;
 const path = "https://boletin-leip.herokuapp.com/api/love/";
+// const path = "http://localhost:8087/api/love/";
 
 const incrementarContador = (tarea = "") => {
   const url = path + tarea;
@@ -47,6 +48,8 @@ d.addEventListener(
 
 const loveButtoms = d.querySelectorAll(".love-buttom");
 
+
+
 loveButtoms.forEach((love) => {
   const idLove = love.getAttribute("data-love");
 
@@ -76,5 +79,3 @@ const cargarContadorLove = () => {
     .then((resp) => actualizarContadores(resp.data))
     .catch((error) => console.log(error));
 };
-
-cargarContadorLove();
